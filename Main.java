@@ -13,7 +13,7 @@ public class Main {
             userin.close();
 
             if(ans>=10 || ans <=0){
-                throw new Exception("Number has to be between 0 and 10");
+                throw new ExceptionNew("Number has to be between 0 and 10");
             }
             int res = 1;
             int i = 1;
